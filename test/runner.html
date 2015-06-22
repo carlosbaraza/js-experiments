@@ -1,0 +1,12 @@
+<!-- This is the Mocha HTML runner used for non-headless browsers and PhantomJS -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- encoding must be set for mocha's special characters to render properly -->
+    <link rel="stylesheet" href="../node_modules/mocha/mocha.css" />
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script data-main="specLoader.js" src="../node_modules/requirejs/require.js"></script>
+  </body>
+</html>

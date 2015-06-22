@@ -1,0 +1,20 @@
+{
+  "name": "mocha-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for small JS projects or experiments.",
+  "scripts": {
+    "test": "mocha-phantomjs test/runner.html"
+  },
+  "keywords": [
+    "mocha",
+    "Boilerplate"
+  ],
+  "author": "Carlos Baraza <carlos.baraza@ieee.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5",
+    "mocha-phantomjs": "^3.5.3",
+    "requirejs": "^2.1.18"
+  }
+}
