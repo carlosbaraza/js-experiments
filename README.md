@@ -1,20 +1,17 @@
-[![Build Status](https://travis-ci.org/carlosbaraza/mocha-boilerplate.svg)](https://travis-ci.org/carlosbaraza/mocha-boilerplate)
+[![Build Status](https://travis-ci.org/carlosbaraza/js-experiments.svg)](https://travis-ci.org/carlosbaraza/js-experiments)
 
-# Mocha boilerplate
-Boilerplate for small JS projects or experiments.
+# JavaScript Experiments
+I created this repository to source control some experiments I
+make with JavaScript. For example, I would implement well known
+algorithms and data structures, for the matter of improving my
+proficiency with the language and the concrete patterns.
 
 # Why?
-Because I needed a quick boilerplate for some JavaScript experiments,
-with which I could easily add a new file, some tests and have them run
-in the browser, and in the console thought `mocha-phantomjs`.
+Because I love JavaScript and I want to become a language master.
 
-# Usage
-Download the boilerplate and then use one of these methods:
-
+# Tests
 ## Using the browser
 Open the file `test/runner.html`
-
-![Running tests in the browser](https://raw.githubusercontent.com/carlosbaraza/mocha-boilerplate/screenshots/browser.png "Running tests in the browser")
 
 ## From the terminal
 Use `mocha-phantomjs` to run the runner.html. For this task you
@@ -22,5 +19,3 @@ should have `mocha-phantomjs` installed. You could install it with
 `npm install mocha-phantomjs`.
 
 Finally, run your tests with `npm test`.
-
-![Running tests in mocha-phantomjs](https://raw.githubusercontent.com/carlosbaraza/mocha-boilerplate/screenshots/mocha-phantomjs.png "Running tests in mocha-phantomjs")
