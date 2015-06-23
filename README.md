@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/carlosbaraza/mocha-boilerplate.svg)](https://travis-ci.org/carlosbaraza/mocha-boilerplate)
+
 # Mocha boilerplate
 Boilerplate for small JS projects or experiments.
 
