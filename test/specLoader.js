@@ -20,7 +20,8 @@ define(function (require) {
   mocha.reporter('html');
 
   require([
-    'test/example/is-int-spec'
+    'test/algorithms/is-int-spec',
+    'test/algorithms/union-find-spec'
   ], function (require) {
     if (window.mochaPhantomJS) { mochaPhantomJS.run(); }
     else { mocha.run(); }

@@ -1,13 +1,14 @@
 {
-  "name": "mocha-boilerplate",
+  "name": "js-experiments",
   "version": "1.0.0",
-  "description": "Boilerplate for small JS projects or experiments.",
+  "description": "Some JS algorithm, design pattern and data structure experiments.",
   "scripts": {
     "test": "mocha-phantomjs test/runner.html"
   },
   "keywords": [
     "mocha",
-    "Boilerplate"
+    "js",
+    "experiments"
   ],
   "author": "Carlos Baraza <carlos.baraza@ieee.org>",
   "license": "MIT",

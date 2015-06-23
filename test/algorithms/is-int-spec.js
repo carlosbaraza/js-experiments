@@ -2,7 +2,7 @@
 // Mocha Spec loading dependencies using RequireJS
 // ----------------------------------------------------------------------------
 
-define(['../../lib/is-int'],
+define(['../../lib/algorithms/is-int'],
        function (isInt) {
 
   var chai = require('chai');
