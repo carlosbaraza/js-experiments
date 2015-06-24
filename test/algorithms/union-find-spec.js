@@ -8,7 +8,6 @@ define(['../../lib/algorithms/union-find'],
   var chai = require('chai');
   var expect = chai.expect;
 
-  var union = unionFind.union;
   var Network = unionFind.Network;
 
   describe('unionFind network', function () {
