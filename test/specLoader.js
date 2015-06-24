@@ -21,7 +21,8 @@ define(function (require) {
 
   require([
     'test/algorithms/is-int-spec',
-    'test/algorithms/union-find-spec'
+    'test/algorithms/union-find-spec',
+    'test/data-structures/binary-heap-spec'
   ], function (require) {
     if (window.mochaPhantomJS) { mochaPhantomJS.run(); }
     else { mocha.run(); }
